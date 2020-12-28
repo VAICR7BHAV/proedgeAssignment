@@ -85,7 +85,7 @@ app.post("/receiveInput",function (req,res) {
 /***************************** Setting up the API to run on port 8000 ***********/
 
 
-app.listen(80,function(req,res)
+app.listen(8000,function(req,res)
 {
-    console.log("Server live on port 80");
+    console.log("Server live on port 8000");
 });
