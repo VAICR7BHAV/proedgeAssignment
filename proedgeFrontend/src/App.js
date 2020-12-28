@@ -23,7 +23,7 @@ class App extends React.Component
             csv:this.refs.csv.value,
 
         };
-        fetch("http://localhost:8000/receiveInput",{method:'POST',
+        fetch("http://13.126.104.106:8000/receiveInput",{method:'POST',
             headers:{'Content-type':'application/json'},
             body:JSON.stringify(dataToSend)})
             .then(res=>res.text())
